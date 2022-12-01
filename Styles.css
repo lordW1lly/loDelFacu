@@ -1,0 +1,93 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    position: relative;
+    background-image: url("./images/Pandemonium\ V6D\ 2.jpg");
+
+}
+
+.Container {
+    position: relative;
+    display: flex;
+    height: 100vh;
+
+}
+
+.content {
+    flex-direction: column;
+    
+    
+
+}
+
+.content div {
+    border-style: dashed;
+    display: flex;
+}
+.elementContent {
+    display: flex;
+    justify-content: center;
+}
+
+.insideElement {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.leftScripts {
+
+    height: 100vh;
+    left: 1.19%;
+    right: 97.62%;
+    top: 4%;
+    bottom: 3.79%;
+    z-index: 2;
+
+    /*     background: linear-gradient(180deg, rgba(255, 111, 102, 0) 0.98%, #FF6F66 40.06%, #FF6F66 59.96%, rgba(255, 111, 102, 0) 102.76%);
+ */
+}
+
+.leftSide {
+    /* background-image: url("./images/leftScripts.jpg"); */
+
+    height: 100vh;
+}
+
+.rightScripts {
+    position: absolute;
+    height: 100vh;
+    left: 97.55%;
+    right: 1.45%;
+    Top: 1.84%;
+    bottom: 3.87%;
+}
+
+.text{
+   
+    
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: rgba(255, 214, 211, 0.7);
+    
+    @font-face {
+        font-family: 'zachar-book';
+        src: url('zachar-book-webfont.woff2') format('woff2'),
+        url('zachar-book-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        
+    }
+    
+    
+}
