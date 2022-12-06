@@ -1,9 +1,14 @@
 body {
-
+    background-color: black;
     margin: 0;
     /*    display: flex;
     position: relative; */
 
+}
+
+@font-face {
+    font-family: zachar;
+    src: url('./fonts/zachar-medium-webfont.woff') format('woff');
 }
 
 
@@ -16,24 +21,32 @@ body {
     /*  height: 100%; */
 
     background-image: url("./images/Pandemonium\ V6D\ 2.jpg");
+    /* -webkit-mask-image: -webkit-linear-gradient(right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)); */
+    /* background: linear-gradient(180deg, rgba(255, 111, 102, 0.21) 0%, rgba(255, 111, 102, 0) 119.36%, rgba(255, 111, 102, 0.21) 119.36%); */
+    height: 54.875rem;
+   /*  filter:blur(18px); */
+
     background-size: cover;
     background-position: center;
+    
 
 
 
     width: 100%;
-    height: 66.063rem;
+    /* height: 66.063rem; */
     left: -12rem;
     top: -9.188rem;
+    z-index: 1;
 
     /*     background: linear-gradient(180deg, rgba(255, 111, 102, 0.21) 0%, rgba(255, 111, 102, 0) 119.36%, rgba(255, 111, 102, 0.21) 119.36%);
  */
-    mix-blend-mode: multiply;
+  
 }
 
-.content {
+.redcontent {
     flex-direction: column;
-    margin-top: 22rem;
+    margin-top:  13.188rem;
+    margin-left: 4.5rem;
 
 
 
@@ -42,11 +55,13 @@ body {
 .content div {
     /*  border-style: dashed; */
     display: flex;
+    justify-content: center;
 }
 
 .elementContent {
     display: flex;
     justify-content: center;
+    
 }
 
 .insideElement {
@@ -70,7 +85,7 @@ body {
 .leftSide {
     /* background-image: url("./images/leftScripts.jpg"); */
     position: absolute;
-    height: 100vh;
+    height: 53.25rem;
 
     position: absolute;
     left: 1.19%;
@@ -82,7 +97,7 @@ body {
 .rightSide {
     position: absolute;
 
-    height: 100vh;
+    height: 53.25rem;
     left: 97.55%;
     right: 1.45%;
     Top: 1.84%;
@@ -90,6 +105,8 @@ body {
 }
 
 .divNetherak {
+    justify-content: center;
+    display: flex;
     justify-content: center;
 
 
@@ -100,7 +117,12 @@ body {
 }
 
 .greendemon {
-    margin-top: 24rem;
+    margin-top: 15.063rem;
+    margin-left: 9rem;
+}
+
+.greendemon img {
+    z-index: 6; 
 }
 
 .textDiv {
@@ -110,29 +132,24 @@ body {
 
 }
 
+
+
 .text {
 
-    font-family: "Zachar";
+    font-family: zachar;
+
+
+    font-style: normal;
+    font-weight: 400;
     font-size: 12px;
-    font-weight: 500;
-    line-height: 8px;
-    letter-spacing: 0em;
+    line-height: 12px;
     text-align: center;
 
-    font-family: "Zachar";
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 15px;
-    letter-spacing: 0em;
-    text-align: center;
+    color: rgba(255, 214, 211, 0.7);
 
-    font-family: "Roc Grotesk";
-    font-size: 12px;
-    font-weight: 350;
-    line-height: 17px;
-    letter-spacing: 0em;
-    text-align: center;
-
-
+    width: 600px;
+    height: 60px;
+    left: 72px;
+    top: 582px;
 
 }
