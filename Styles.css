@@ -3,6 +3,7 @@ body {
     margin: 0;
     /*    display: flex;
     position: relative; */
+    height: 103.75rem;
 
 }
 
@@ -121,11 +122,12 @@ body {
     
    
     margin-top: 15.063rem;
-    margin-left: 47.125rem;
+   
 }
 
 .greendemon img {
     z-index: 6; 
+    float: right;
 }
 
 .textDiv {
@@ -133,6 +135,16 @@ body {
 
 
 
+}
+
+.leftHalf {
+    width: 50%;
+}
+
+.rightHalf {
+   /*  margin-left: 50.938rem;
+} */
+width: 50%;
 }
 
 
